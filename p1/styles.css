@@ -1,0 +1,19 @@
+h1{
+    font-family:arial;
+    font-size: 70px;
+    text-align:center;
+}
+h3{
+    font-family:arial;
+    font-size:40px;
+}
+img{
+    width:100%;
+    height:auto;
+    margin:0 auto;
+    margin-bottom:30px;
+    border: 2px solid black;
+}
+p{
+    text-align: center;
+}
