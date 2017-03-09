@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+  <title>Explore the Web</title>
+  <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles_p1.css">
+        <script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+</head>
+
+<body onload="startTime()">
+    <h1 style="font-family: Helvetica">Explore the Web</h1>
+  <div class="image">
+      <a href="loading_page.html"><img style="width: 550px; display: inline-block;" src="../documentation/other_images/Facebook-logo.png"/></a>
+      <a href="loading_page.html"><img style="width: 450px; display: inline-block;" src="../documentation/other_images/google.jpg"/></a>
+      <a href="loading_page.html"><img style="width: 600px; display: inline-block;" src="../documentation/other_images/amazon_logo_RGB.jpg"/></a>
+      <a href="loading_page.html"><img style="width: 400px; display: inline-block;" src="../documentation/other_images/imgres.png"/></a>
+      <a href="loading_page.html"><img style="width: 500px; display: inline-block;" src="../documentation/other_images/Netflix_Logo_DigitalVideo_0701.jpg"/></a>
+      <a href="loading_page.html"><img style="width: 500px; display: inline-block;" src="../documentation/other_images/why_is_it_smart_to_buy_youtube_views.png"/></a>
+      <a href="loading_page.html"><img style="width: 500px; display: inline-block;" src="../documentation/other_images/2000px-Imgur_logo.svg.png"/></a>
+      <a href="loading_page.html"><img style="width: 500px; display: inline-block;" src="../documentation/other_images/373721-wikipedia1.png"/></a>
+      <a href="loading_page.html"><img style="width: 500px; display: inline-block;" src="../documentation/other_images/buzzfeed.png"/></a>
+      <a href="loading_page.html"><img style="width: 500px; display: inline-block;" src="../documentation/other_images/instagram.jpg"/></a>
+      <a href="loading_page.html"><img style="width: 500px; display: inline-block;" src="../documentation/other_images/Hulu_logo.jpg"/></a>
+      <a href="loading_page.html"><img style="width: 500px; display: inline-block;" src="../documentation/other_images/636054951893647903-2090458763_Pinterest_logo-3.jpg"/></a>
+      <a href="loading_page.html"><img style="width: 500px; display: inline-block;" src="../documentation/other_images/wanderu-logo-stacked.jpg"/></a>
+      <a href="loading_page.html"><img style="width: 500px; display: inline-block;" src="../documentation/other_images/_8p73Glo.png"/></a>
+  </div>
+    <div id="txt"></div>
+    <p><a href="/index.html">home</a></p>
+</body>
+</html>

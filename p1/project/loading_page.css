@@ -1,0 +1,45 @@
+.gif{
+height:140px;
+width:250px;
+border:0px;
+padding:0px;
+margin:0px; 
+cursor:url(../documentation/images/04-spinner.gif), auto; 
+}
+.gif:hover { 
+cursor:url(../documentation/images/04-spinner.gif), auto; 
+}
+#gif > .loading{
+display:block;
+width:237px;
+height:35px;
+margin-left:auto;
+margin-right:auto;
+padding-top:5px;
+}
+p.home{
+    bottom:0;
+    position:absolute;
+    width:100%;
+    text-align:center;
+    display:block;
+    font-size: 6px;
+}
+h1{
+    font-family:Helvetica;
+    font-size: 60px;
+    text-align:center;
+}
+h3{
+    font-family:Helvetica;
+    font-size:40px;
+}
+img{
+    width:auto;
+    height:auto;
+    margin:0 auto;
+    margin-bottom:30px;
+}
+p{
+    text-align: center;
+}
