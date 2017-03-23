@@ -1,0 +1,31 @@
+h1{
+    font-family:baskervil;
+    font-size: 50px;
+    text-align:center;
+    color: white
+}
+h3{
+    font-family:arial;
+    font-size:40px;
+}
+img{
+    display: block;
+    width:600px;
+    height:auto;
+    margin:0 auto;
+    margin-bottom:30px;
+    border: 2px solid black;
+
+}
+p{
+    text-align: center;
+}
+video{
+    margin:0 auto;
+    margin-bottom:30px;
+    border: 2px solid black;
+    display: block
+}
+body{
+    background-color: darkslategrey
+}
