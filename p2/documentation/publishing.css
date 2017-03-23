@@ -14,8 +14,6 @@ img{
     height:auto;
     margin:0 auto;
     margin-bottom:30px;
-    border: 2px solid black;
-
 }
 p{
     text-align: center;
@@ -23,7 +21,6 @@ p{
 video{
     margin:0 auto;
     margin-bottom:30px;
-    border: 2px solid black;
     display: block
 }
 body{
