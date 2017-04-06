@@ -1,3 +1,11 @@
+p.home{
+    bottom:0;
+    position:absolute;
+    width:100%;
+    text-align:center;
+    display:block;
+    font-size: 2px;
+}
 h1{
     font-family:Helvetica;
     font-size: 60px;
@@ -10,30 +18,17 @@ h3{
 img{
     width:auto;
     height:auto;
-    margin:20px;
-    vertical-align: middle;
+    margin:0 auto;
+    margin-bottom:30px;
 }
 p{
     text-align: center;
 }
-p.home{
-    bottom:0;
-    position:absolute;
-    width:100%;
-    text-align:center;
-    display:block;
-    font-size: 6px;
-}
-.image{;
-    width:100%;
-    align-content: center;
-}
-#txt{
+div#txt{
     font-family:sans-serif;
-    font-size:100px;
+    font-size:20px;
     font-weight:bold;
-    color: lightgrey;
-    text-shadow: grey;
+    color:lightgrey;
     position:fixed;
     bottom:0;
     right:0;
@@ -41,13 +36,10 @@ p.home{
     display:inline-block;
     background: rgba(255, 255, 255, .7);
     margin:10px;
-}
-table {
-    width: 80%;
-    image-orientation: center;
+    z-index:1px;
 }
 img.follow{
-    width:200px;
+    width:100px;
     height:auto;
     display:inline-block;
     z-index:3;

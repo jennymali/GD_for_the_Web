@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+  <title>Refreshing...</title>
+  <meta charset="utf-8" />
+    <link rel="stylesheet" href="final_try2.css">
+       <script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500)
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+        <script src="jquery-3.2.0.min.js"></script>
+        <script src ="script.js"></script>
+</head>
+
+<body onload="startTime()">
+    <img src=
+"../documentation/images/Circular-Water-Fill-Loading-Animation.gif" class="follow"/>
+   <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h1 class="loading" style="font-family: Helvetica; font-size: 24px">Refreshing...</h1>
+
+    <p style="font-family: Helvetica">Please stop <a href="Final_try7.html">clicking</a></p>
+      <br>
+   <div id="txt"></div>
+    <p class="home"><a href="final_try.html">back</a></p>
+</body>
+</html>
