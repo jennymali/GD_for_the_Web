@@ -1,0 +1,277 @@
+p.home{
+    bottom:0;
+    position:absolute;
+    width:100%;
+    text-align:center;
+    display:block;
+    font-size: 14px;
+}
+h1{
+    font-family:Helvetica Neue;
+    font-size: 40px;
+    text-align:left;
+}
+h3{
+    font-family:Helvetica Neue;
+    font-size:40px;
+}
+.container{
+    display:block;
+    margin:0 auto;
+    margin-top: 70px;
+}
+img{
+    width:330px;
+    height:auto;
+    margin:0 auto;
+    display: block;
+}
+p{
+    text-align: left;
+}
+.background{
+    width: 100vw;
+    height: 100vh;
+    z-index:-1;
+    position:absolute;
+    top:0;
+    background-image: url(IMG_3703.jpeg);
+    background-size: cover;
+}
+.background2{
+    width: 100vw;
+    height: 100vh;
+    z-index:-1;
+    position:absolute;
+    top:0;
+    background-image: url(51243331173__C0D33F4E-4C72-49D8-B88C-6C4361899139.JPG);
+    background-size: cover;
+}
+.background3{
+    width: 100vw;
+    height: 100vh;
+    z-index:-1;
+    position:absolute;
+    top:0;
+    background-image: url(IMG_4847.JPG);
+    background-size: cover;
+}
+.background4{
+    width: 100vw;
+    height: 100vh;
+    z-index:-1;
+    position:absolute;
+    top:0;
+    background-image: url(EF2E6E15-96E2-471E-BD4A-4D7FC30C1B68.JPG);
+    background-size: cover;
+}
+.background5{
+    width: 100vw;
+    height: 100vh;
+    z-index:-1;
+    position:absolute;
+    top:0;
+    background-image: url(IMG_2420.jpeg);
+    background-size: cover;
+}
+.background6{
+    width: 100vw;
+    height: 100vh;
+    z-index:-1;
+    position:absolute;
+    top:0;
+    background-image: url(IMG_1717.jpg);
+    background-size: cover;
+}
+.background7{
+    width: 100vw;
+    height: 100vh;
+    z-index:-1;
+    position:absolute;
+    top:0;
+    background-image: url(IMG_2466.JPG);
+    background-size: cover;
+}
+.background8{
+    width: 100vw;
+    height: 100vh;
+    z-index:-1;
+    position:absolute;
+    top:0;
+    background-image: url(IMG_1679.jpg);
+    background-size: cover;
+}
+.background9{
+    width: 100vw;
+    height: 100vh;
+    z-index:-1;
+    position:absolute;
+    top:0;
+    background-image: url(IMG_1814.jpg);
+    background-size: cover;
+}
+.background10{
+    width: 100vw;
+    height: 100vh;
+    z-index:-1;
+    position:absolute;
+    top:0;
+    background-image: url(IMG_1666.jpg);
+    background-size: cover;
+}
+.click{
+    width:300px;
+    height:50px;
+    position:absolute;
+    display:block;
+    margin:auto;
+    top:46vh;
+    margin-left: auto; 
+    margin-right: auto;
+    left:0;
+    right:0;
+}
+.click2{
+    width:30px;
+    height:30px;
+    position:absolute;
+    display:block;
+    margin:auto;
+    top:20vh;
+    margin-left: auto; 
+    margin-right: auto;
+    left:220px;
+    right:0;
+}
+.click3{
+    width:30px;
+    height:30px;
+    position:absolute;
+    display:block;
+    margin:auto;
+    top:20vh;
+    margin-left: auto; 
+    margin-right: auto;
+    left:0px;
+    right:220px;
+}
+.click4{
+    width:300px;
+    height:30px;
+    position:absolute;
+    display:block;
+    margin:auto;
+    top:31vh;
+    margin-left: auto; 
+    margin-right: auto;
+    left:0;
+    right:0;
+}
+.click5{
+    width:300px;
+    height:30px;
+    position:absolute;
+    display:block;
+    margin:auto;
+    top:35vh;
+    margin-left: auto; 
+    margin-right: auto;
+    left:0;
+    right:0;
+}
+.click6{
+    width:300px;
+    height:50px;
+    position:absolute;
+    display:block;
+    margin:auto;
+    top:53vh;
+    margin-left: auto; 
+    margin-right: auto;
+    left:0;
+    right:0;
+}
+.click7{
+    width:300px;
+    height:50px;
+    position:absolute;
+    display:block;
+    margin:auto;
+    top:69vh;
+    margin-left: auto; 
+    margin-right: auto;
+    left:0;
+    right:0;
+}
+.click8{
+    width:40px;
+    height:15px;
+    position:absolute;
+    display:block;
+    margin:auto;
+    top:50vh;
+    margin-left: auto; 
+    margin-right: auto;
+    left:40px;
+    right:0px;
+}
+.click9{
+    width:300px;
+    height:35px;
+    position:absolute;
+    display:block;
+    margin:auto;
+    top:31vh;
+    margin-left: auto; 
+    margin-right: auto;
+    left:0;
+    right:0;
+}
+.click10{
+    width:300px;
+    height:35px;
+    position:absolute;
+    display:block;
+    margin:auto;
+    top:51vh;
+    margin-left: auto; 
+    margin-right: auto;
+    left:0;
+    right:0;
+}
+.click11{
+    width:300px;
+    height:35px;
+    position:absolute;
+    display:block;
+    margin:auto;
+    top:55vh;
+    margin-left: auto; 
+    margin-right: auto;
+    left:0;
+    right:0;
+}
+.click12{
+    width:300px;
+    height:35px;
+    position:absolute;
+    display:block;
+    margin:auto;
+    top:59vh;
+    margin-left: auto; 
+    margin-right: auto;
+    left:0;
+    right:0;
+}
+.click13{
+    width:40px;
+    height:15px;
+    position:absolute;
+    display:block;
+    margin:auto;
+    top:39vh;
+    margin-left: auto; 
+    margin-right: auto;
+    left:60px;
+    right:0px;
+}
