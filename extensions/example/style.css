@@ -1,0 +1,14 @@
+.hide {
+  opacity: 0;
+}
+
+.gradient {
+  background: linear-gradient(135deg, #ff0000 1%,#fff200 20%,#00ffdd 40%,#090df9 60%,#ff0af6 80%,#ff0004 100%);
+  color: gray;
+}
+.text-change{
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+.rotate {
+    transform:rotate(180deg);
+}
