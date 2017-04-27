@@ -1,0 +1,27 @@
+p.home{
+    bottom:0;
+    position:absolute;
+    width:100%;
+    text-align:center;
+    display:block;
+    font-size: 14px;
+}
+h1{
+    font-family:Helvetica Neue;
+    font-size: 30px;
+    text-align:left;
+    color: black;
+    margin: 40px;
+}
+h3{
+    font-family:Helvetica Neue;
+    font-size:40px;
+}
+img{
+    width:auto;
+    height:700px;
+    margin:0 auto;
+    margin-bottom: 20px;
+    display: block;
+    border: 1px lightgray solid;
+}
