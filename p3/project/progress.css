@@ -2,12 +2,18 @@
 
 
 /*________________*/
-
+body{
+    background-color: #fbfbf1;
+    overflow-x: hidden;
+}
 
 p{
     text-align: left;
     z-index: 2;
+    font-family: ;
+    margin-left: 600px;
 }
+/*
 img.background{
     width: 100vw;
     height: 100vh;
@@ -29,41 +35,72 @@ img.second{
     margin:0;
     z-index:-2;
 }
-
+*/
+div.titleauthor{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    position: fixed;
+    margin-top: 4vh;
+    margin-left: 3vw;
+}
+h1.title{
+    display:block;
+    width:100%;
+    text-align:center;
+    font-size: 70px;
+    font-family: Helvetica Neue;
+}
+h2{
+    display:block;
+    width:100%;
+    text-align:center;
+    font-size: 12px;
+    font-family: caslon;
+    font-weight: 200;
+    margin-bottom: 40px;
+    margin-top: -70px;
+    margin-left: -10.2vw;
+}
 div.container{
     display:block;
     position:absolute;
-    margin-left:37vw;
+    margin-left:16vw;
     top:0;
-    margin-top:5vh;
+    margin-top:7vh;
+    margin-bottom: 7vh;
     height:auto;
+    width: 100%;
+    
 }
 
 .top, .top2, .top3, .top4, .top5, .top6, .top7, .top8, .top9, .top10, .top11{
     display:block;
+    margin-bottom: 30px;
 }
 
-.top p, .top2, .top3, .top4, .top5, .top6, .top7, .top8, .top9, .top10, .top11 p{
-    font-family: sans-serif;
-    font-size: 30px;
-    color: white;
+.top , .top2, .top3, .top4, .top5, .top6, .top7, .top8, .top9, .top10, .top11 p{
+    font-family: caslon;
+    font-size: 18px;
+    color: black;
     text-align:left;
     height:auto;
 }
 #overlay, #overlay2, #overlay3, #overlay4, #overlay5, #overlay6, #overlay7, #overlay8, #overlay9, #overlay10, #overlay11 {
     position: absolute;
-    display:none;
-    width: 100%;
-    height: 10%;
-    background-color: rgba(0,0,0,0.9);
+    display: block;
+    width: 22vw;
+    height: 9%;
+    background-color: rgba(0,0,0,0.95);
     z-index: 2;
     cursor: pointer;
+    margin-left:38.5vw;
 }
 #text, #text2, #text3, #text4, #text5, #text6, #text7, #text8, #text9, #text10, #text11{
     position: absolute;
     top: 50%;
     left: 50%;
-    font-size: 33px;
+    font-size: 18px;
     color: white;
     font-family: sans-serif;
     transform: translate(-50%,-50%);
@@ -80,6 +117,9 @@ p.home{
     margin:0;
     z-index:2;
 }
+
+
+
 
 
 

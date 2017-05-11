@@ -1,22 +1,44 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-  <title>Location</title>
-  <meta charset="utf-8" />
+  <title>****************</title>
+       
+  <meta charset="utf-8"/>
     <link rel="stylesheet" href="progress.css">
+    <script type="text/javascript" src="progress.js"></script>
+        
     </head>
 
 <body onload="startTime()">
+<!--
+    <script>
+        $(document).ready(function(){
+            $("overlay").click(function(){
+                var audio = $(this).find("audio");
+                audio.play();
+            });
+        })
+       
+        </script>
+-->
+     <div class="titleauthor"><h1 class="title">****************</h1>
+    <h2 class="title"><i> By Secure Password Generator</i></h2>
+    </div>
+    <div class="wrapper">
+    
+<!--
     <img src="background.jpg" class="background">
     <img src="midcropped2.png" class="second">
+-->
    
         
 <!--    <a href ="P2_y_location.html"><div class="click3"></div></a>-->
-    
+    <br> <br> <br> <br> <br> <br>
     <div class="container">
     <div class="top">
-        <div id="overlay" onclick="off()">
-            <div id="text">GWZaZDFFjNuawsqK</div>
+        <div  id="overlay" onclick="off()" >
+            <div id="text" >GWZaZDFFjNuawsqK</div>
+            <audio src="audio/GolfWalmartZip.mp3" type="audio/mpeg" id="audio"></audio>
         </div>
         <div style="padding:px">
          <p onclick="on()">
@@ -30,8 +52,10 @@
     </div>
     
     <div class="top2">
-        <div id="overlay2" onclick="off2()">
-            <div id="text2">jEeDYqJaSqLixsty</div>
+        <div class="click" id="overlay2" onclick="off2()">
+            <div id="text2">
+                jEeDYqJaSqLixsty</div>
+                <audio src="audio/JackEggEgg.mp3" type="audio/mpeg" id="audio1"></audio>
         </div>
         <div style="padding:px">
          <p onclick="on2()">
@@ -45,8 +69,10 @@
     </div>
     
     <div class="top3">
-        <div id="overlay3" onclick="off3()">
-            <div id="text3">OtpIyWVQFUlRuzqC</div>
+        <div class="click" id="overlay3" onclick="off3()">
+            <div id="text3">OtpIyWVQFUlRuzqC
+            </div>
+            <audio src="audio/OmeletTokyoPark.mp3" type="audio/mpeg" id="audio2"></audio>
         </div>
         <div style="padding:px">
          <p onclick="on3()">
@@ -61,7 +87,9 @@
         
         <div class="top4">
         <div id="overlay4" onclick="off4()">
-            <div id="text4">UswFbjFCsGWXEkru</div>
+            <div id="text4">UswFbjFCsGWXEkru
+            </div>
+            <audio src="audio/UsaSkypeWalmart.mp3" type="audio/mpeg" id="audio3"></audio>
         </div>
         <div style="padding:px">
          <p onclick="on4()">
@@ -76,7 +104,9 @@
         
         <div class="top5">
         <div id="overlay5" onclick="off5()">
-            <div id="text5">LDbrvXFnrvPGaLdn</div>
+            <div id="text5">LDbrvXFnrvPGaLdn
+            </div>
+            <audio src="audio/LaptopDrip.mp3" type="audio/mpeg" id="audio4"></audio>
         </div>
         <div style="padding:px">
          <p onclick="on5()">
@@ -91,7 +121,9 @@
         
         <div class="top6">
         <div id="overlay6" onclick="off6()">
-            <div id="text6">LBAhqCoVgwsQAcvM</div>
+            <div id="text6">LBAhqCoVgwsQAcvM
+            </div>
+            <audio src="audio/LaptopBestbuyApple.mp3" type="audio/mpeg" id="audio5"></audio>
         </div>
         <div style="padding:px">
          <p onclick="on6()">
@@ -106,7 +138,9 @@
         
         <div class="top7">
         <div id="overlay7" onclick="off7()">
-            <div id="text7">MoXJlHPlXDcwxPhd</div>
+            <div id="text7">MoXJlHPlXDcwxPhd
+            </div>
+            <audio src="audio/MusicOmeletXbox.mp3" type="audio/mpeg" id="audio6"></audio>
         </div>
         <div style="padding:px">
          <p onclick="on7()">
@@ -121,7 +155,9 @@
         
         <div class="top8">
         <div id="overlay8" onclick="off8()">
-            <div id="text8">VDGvIADEnUGgXcAF</div>
+            <div id="text8">VDGvIADEnUGgXcAF
+            </div>
+            <audio src="audio/VisaDripGolf.mp3" type="audio/mpeg" id="audio7"></audio>
         </div>
         <div style="padding:px">
          <p onclick="on8()">
@@ -136,7 +172,9 @@
         
         <div class="top9">
         <div id="overlay9" onclick="off9()">
-            <div id="text9">nnSfZjZLYTJluPIL</div>
+            <div id="text9">nnSfZjZLYTJluPIL
+            </div>
+            <audio src="audio/NutNut.mp3" type="audio/mpeg" id="audio8"></audio>
         </div>
         <div style="padding:px">
          <p onclick="on9()">
@@ -148,7 +186,7 @@
          </p>
         </div>
     </div>
-        
+    
 <!--
         <div class="top10">
         <div id="overlay10" onclick="off10()">
@@ -191,59 +229,109 @@
     <script>
 function on() {
     document.getElementById("overlay").style.display = "block";
+    document.getElementById("audio").pause();
 }
         function off() {
     document.getElementById("overlay").style.display = "none";
+    document.getElementById("audio").play();
 }
 
     function on2() {
         document.getElementById("overlay2").style.display = "block";
+        
+        document.getElementById("audio1").pause();
+        
     }
     function off2() {
         document.getElementById("overlay2").style.display = "none";
+        
+         document.getElementById("audio1").play();
+        
     }
      function on3() {
         document.getElementById("overlay3").style.display = "block";
+         
+         document.getElementById("audio2").pause();
+         
     }
     function off3() {
         document.getElementById("overlay3").style.display = "none";
+        
+        document.getElementById("audio2").play();
+        
     }
         function on4() {
         document.getElementById("overlay4").style.display = "block";
+            
+        document.getElementById("audio3").pause();
+            
     }
     function off4() {
         document.getElementById("overlay4").style.display = "none";
+        
+        document.getElementById("audio3").play();
+        
     }
         function on5() {
         document.getElementById("overlay5").style.display = "block";
+            
+         document.getElementById("audio4").pause();
+            
     }
     function off5() {
         document.getElementById("overlay5").style.display = "none";
+        
+        document.getElementById("audio4").play();
+        
     }
         function on6() {
         document.getElementById("overlay6").style.display = "block";
+            
+        document.getElementById("audio5").pause();
+            
     }
     function off6() {
         document.getElementById("overlay6").style.display = "none";
+        
+        document.getElementById("audio5").play();
+        
     }
         function on7() {
         document.getElementById("overlay7").style.display = "block";
+            
+        document.getElementById("audio6").pause();
+            
     }
     function off7() {
         document.getElementById("overlay7").style.display = "none";
+        
+         document.getElementById("audio6").play();
+        
     }
         function on8() {
         document.getElementById("overlay8").style.display = "block";
+        
+        document.getElementById("audio7").pause();
+            
     }
     function off8() {
         document.getElementById("overlay8").style.display = "none";
+        
+        document.getElementById("audio7").play();
+        
     }
         
         function on9() {
         document.getElementById("overlay9").style.display = "block";
+            
+        document.getElementById("audio8").pause();
+            
     }
     function off9() {
         document.getElementById("overlay9").style.display = "none";
+        
+        document.getElementById("audio8").play();
+        
     }
         function on10() {
         document.getElementById("overlay10").style.display = "block";
@@ -260,6 +348,6 @@ function on() {
 
 </script>
     
-    
+    </div>
 </body>
 </html>
