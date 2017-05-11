@@ -65,7 +65,7 @@ h2{
 div.container{
     display:block;
     position:absolute;
-    margin-left:16vw;
+    margin-left:240px;
     top:0;
     margin-top:7vh;
     margin-bottom: 7vh;
@@ -89,12 +89,12 @@ div.container{
 #overlay, #overlay2, #overlay3, #overlay4, #overlay5, #overlay6, #overlay7, #overlay8, #overlay9, #overlay10, #overlay11 {
     position: absolute;
     display: block;
-    width: 22vw;
+    width: 300px;
     height: 9%;
     background-color: rgba(0,0,0,0.95);
     z-index: 2;
     cursor: pointer;
-    margin-left:38.5vw;
+    margin-left:555px;
 }
 #text, #text2, #text3, #text4, #text5, #text6, #text7, #text8, #text9, #text10, #text11{
     position: absolute;
